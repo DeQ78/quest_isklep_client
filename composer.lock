@@ -1,0 +1,36 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "12f1af57b4b2a541840efe0d00dc0e06",
+    "packages": [
+        {
+            "name": "dq78/isklep_api_client",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dq78/isklep_api_client.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "dq78\\isklep_api_client\\": "app"
+                }
+            },
+            "time": "2019-03-15T09:38:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dq78/isklep_api_client": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

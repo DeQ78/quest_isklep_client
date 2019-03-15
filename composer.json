@@ -1,0 +1,28 @@
+{
+  "name": "dq78/quest_isklep",
+  "description": "dq78/quest_isklep",
+  "license": "PRIVATE",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "dq78/isklep_api_client",
+        "version": "master",
+        "source": {
+          "url": "https://github.com/dq78/isklep_api_client.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "psr-4": {
+            "dq78\\isklep_api_client\\": "app"
+          }
+        }
+      }
+    }
+
+  ],
+  "require": {
+    "dq78/isklep_api_client": "dev-master"
+  }
+}
